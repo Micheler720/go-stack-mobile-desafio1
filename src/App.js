@@ -22,11 +22,10 @@ export default function App() {
     const indexRepository = repositories.findIndex( repository => repository.id === id);    
     if(indexRepository >= 0 ){
       const response = await api.post(`repositories/${id}/like`);
-      console.log(response.data);
       const repository = response.data;
       let newRepositories = repositories;
       newRepositories[indexRepository] = repository;
-      setRepositories([ ...newRepositories ]);
+      setRepositories(newRepositories);
     }
   }
 
