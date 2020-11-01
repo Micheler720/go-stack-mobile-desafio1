@@ -1,0 +1,4 @@
+#Sun Nov 01 12:52:58 BRT 2020
+base.0=/media/michele/Acer/Users/miche/Desktop/PROJETOS/Bootcamp14/desafios/go-stack-mobile-desafio1/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
