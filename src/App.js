@@ -25,7 +25,7 @@ export default function App() {
       const repository = response.data;
       let newRepositories = repositories;
       newRepositories[indexRepository] = repository;
-      setRepositories(newRepositories);
+      setRepositories([...newRepositories]);
     }
   }
 
